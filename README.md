@@ -6,7 +6,7 @@
 
 ## Install
 
-    composer require andskur/coinmc
+    composer require krorten/coinmc
 
 ### Configuration
 
