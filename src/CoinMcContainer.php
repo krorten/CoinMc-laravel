@@ -1,6 +1,6 @@
 <?php
 
-namespace Kroten\CoinMc;
+namespace Krorten\CoinMc;
 
 use GuzzleHttp\Client;
 
