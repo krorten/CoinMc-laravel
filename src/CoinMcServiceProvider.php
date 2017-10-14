@@ -1,9 +1,9 @@
 <?php
 
-namespace Andskur\CoinMc;
+namespace Kroten\CoinMc;
 
 use Illuminate\Support\ServiceProvider;
-use Andskur\CoinMc\CoinMcContainer;
+use Kroten\CoinMc\CoinMcContainer;
 
 class CoinMcServiceProvider extends ServiceProvider
 {
