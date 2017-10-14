@@ -8,6 +8,7 @@
 
     composer require krorten/coinmc
 
+    You will have to add this repositorie as vcs
 ### Configuration
 
 After installing, register the `Kroten\CoinMc\CoinMcServiceProvide` in your `config/app.php` configuration file:
@@ -16,14 +17,14 @@ After installing, register the `Kroten\CoinMc\CoinMcServiceProvide` in your `con
 'providers' => [
     // Other service providers...
 
-    Kroten\CoinMc\CoinMcServiceProvider::class,
+    Krorten\CoinMc\CoinMcServiceProvider::class,
 ],
 ```
 
 Also, add the `CoinMc` facade to the `aliases` array in your `app` configuration file:
 
 ```php
-'CoinMc' => Kroten\CoinMc\CoinMcFacade::class,
+'CoinMc' => Krorten\CoinMc\CoinMcFacade::class,
 ```
 
 ### Usage
